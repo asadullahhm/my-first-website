@@ -12,6 +12,7 @@
 
 }
 
+/*header start*/
 .navbar {
     width: 1200px;
     height: 75px;
@@ -67,25 +68,28 @@ ul li a {
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
-ul li:hover{
- background-color: rgb(35, 0, 35);
+
+ul li:hover {
+    background-color: rgb(35, 0, 35);
 
 }
+
 ul li a:hover {
     color: #ff7200;
-   
+
 }
 
-.search{
+.search {
     width: 330px;
     float: left;
     margin-left: 270px;
 }
-.sch{
+
+.sch {
     font-family: 'Times New Roman';
     width: 200px;
     height: 40px;
-    background:#918d8a2d;
+    background: #918d8a2d;
     border-radius: 5px;
     border: 1px solid orangered;
     margin: 25px 0px 0px 0px;
@@ -96,7 +100,7 @@ ul li a:hover {
     float: left;
 }
 
-.btn{
+.btn {
     width: 100px;
     height: 40px;
     background: #ff7300a8;
@@ -108,11 +112,144 @@ ul li a:hover {
     transition: 0.3s ease;
     border-radius: 5px;
 }
-.btn:hover{
-background: white;
-color: orangered;
+
+.btn:hover {
+    background: white;
+    color: orangered;
 }
-.btn:active{
+
+.btn:active {
     background: purple;
     color: white;
+}
+
+/*Header End*/
+
+/*left site complete*/
+.hed {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+.contain {
+    margin: 20px 0px 0px 90px;
+}
+
+p {
+    width: 400px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.join {
+    margin: 20px 20px 20x 0px;
+    padding: 7px 20px;
+    background: #ff7200;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.joinn {
+    text-decoration: none;
+    width: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+
+}
+
+.joinn:hover {
+    color: rgb(0, 0, 0);
+}
+
+.join:hover {
+    background-color: aliceblue;
+}
+
+/*left site complete*/
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgb(235, 164, 106),rgba(98, 38, 14, 0.786));
+    position: absolute;
+    top: 130px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    background: white;
+    font-size: 22px;
+    border-radius: 7px;
+    margin: 2px;
+    margin-bottom: 7px;
+    padding: 5px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgba(255, 255, 255, 0.967);
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+form inpur:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.759);
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+   color: white;
+   text-transform: uppercase;
+   transition: 0.4s ease;
+
+}
+
+.btnn:hover{
+    background: white;
+
+}
+.form a{
+     text-decoration: none;
+     color: rgb(0, 3, 5);
+}
+
+.form .link{
+    padding: 23px;
+    margin-left: 10px;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+    font-size: 18px;
+}
+.liw{
+    padding: 15px 0px 10px 0px;
+    margin-left: 20;
+   
 }
